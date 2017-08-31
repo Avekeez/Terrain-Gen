@@ -12,9 +12,9 @@ public class LayeredTerrain : MonoBehaviour {
 
 		int seed = DateTime.Now.GetHashCode();
 
-		layers[0].Init(seed,-0.5f,1.5f);
-		layers[1].Init(seed,0.5f,1.5f);
-		layers[2].Init(seed,0.7f,1.5f);
+		layers[0].Init(seed,-0.5f,0.5f);
+		layers[1].Init(seed,0.5f,0.7f);
+		layers[2].Init(seed,0.7f,0.9f);
 		layers[3].Init(seed,0.9f,1.5f);
 	}
 }
